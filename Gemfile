@@ -1,5 +1,6 @@
 gem 'awesome_print'
 gem 'thin'
+gem 'yard'
 
 group :development do
   gem 'inaction_mailer', :require => 'inaction_mailer/force_load'
