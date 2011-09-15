@@ -7,6 +7,7 @@ group :development do
 end
 
 group :test do
+  gem 'memory_test_fix', '0.1.3'
   gem 'redgreen', :platforms => :mri_18
   # Pulls in linecache19 which is 1.9 compatable
   gem 'ruby-debug19', :require => 'ruby-debug', :platforms => :mri_19
