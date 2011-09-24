@@ -13,4 +13,5 @@ group :test do
   gem 'ruby-debug19', :require => 'ruby-debug', :platforms => :mri_19
   # Pulls in linecache which is 1.8 only
   gem 'ruby-debug', :platforms => :mri_18
+  gem 'launchy'
 end
